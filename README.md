@@ -1,6 +1,6 @@
 # Manuel Morales Portfolio
 
-![Screenshop](https://raw.githubusercontent.com/Angstromico/portfolio-react-fullgit /master/portfolio.png)
+![Screenshop](https://raw.githubusercontent.com/Angstromico/portfolio-react-full/master/portfolio.png)
 
 # [See The App Here](https://manuel-morales-react-portfolio.netlify.app/)
 

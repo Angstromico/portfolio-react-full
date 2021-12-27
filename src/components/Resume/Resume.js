@@ -12,7 +12,8 @@ function Resume() {
   const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
   const [cgpa, upadteCgpa] = useState(0);
-
+  console.log(sem, cgpa);
+  console.clear();
   useEffect(() => {
     axios
       .get(uri)
