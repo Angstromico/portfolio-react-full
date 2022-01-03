@@ -267,6 +267,24 @@ function Projects() {
               link="https://manuel-morales-cotizador-autos.netlify.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/Angstromico/app-gastos/master/gasto.png"
+              isBlog={false}
+              title="App Presupuesto Gasto"
+              description="App for calculating expenses and budget in JavaScript."
+              link="https://manuel-morales-cotizador-autos.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/Angstromico/consultas-veterinarias-apps/master/maxcyn.png"
+              isBlog={false}
+              title="App Consulta Veterinaria"
+              description="App created in JavaScript to simulate the filling of the form in a veterinary consultation."
+              link="https://manuel-morales-consulta-veterinaria.netlify.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
