@@ -3,8 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 
-import colores from '../../Assets/Projects/2.png';
-
 import foodApp from '../../Assets/Projects/13.png';
 
 import AppSalon from '../../Assets/Projects/15.png';
@@ -24,21 +22,21 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/Tema-Para-Instituto-Educativo-en-WordPress/master/screenshot.png"
+              imgPath="https://raw.githubusercontent.com/Angstromico/portfolio-javascript/master/portjava.png"
               isBlog={false}
-              title="Tema de WordPress para Institutos Educativos"
-              description="A WordPress Theme for Schools."
-              link="https://github.com/Angstromico/Tema-Para-Instituto-Educativo-en-WordPress"
+              title="My Projects on JavaScript"
+              description="See how good I Handle JavaScript"
+              link="https://manuel-morales-portfolio-javascript.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={colores}
+              imgPath="https://raw.githubusercontent.com/Angstromico/Tema-Para-Instituto-Educativo-en-WordPress/master/screenshot.png"
               isBlog={false}
-              title="Cambia Colores"
-              description="An application that I made in pure JavaScript following the instructions of the tutorial of projects for beginners by John Smilga, with the particularity that I made it in Spanish and that it uses the rgb format."
-              link="https://cambiafondos.netlify.app"
+              title="Tema de WordPress para Institutos Educativos"
+              description="A WordPress Theme for Schools."
+              link="https://github.com/Angstromico/Tema-Para-Instituto-Educativo-en-WordPress"
             />
           </Col>
 
@@ -51,15 +49,7 @@ function Projects() {
               link="https://github.com/Angstromico/sportcollegewordpresstheme"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/shoppin-cart-manuel-morales/master/Capture.png"
-              isBlog={false}
-              title="JavaScript Shopping Car"
-              description="A shopping car made it follow the full Web Development Curse from Udemy"
-              link="https://shopping-cartmanuelmorales.netlify.app/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://raw.githubusercontent.com/Angstromico/BirtdayApp-React/master/manuel-morales-birtday-app.netlify.app_%20(1).png"
@@ -78,15 +68,7 @@ function Projects() {
               link="https://reactapp-turismo-sudamerica.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/Simulador-Envia-Correo-Manuel/master/screencapture-simulador-manda-correos-memz-netlify-app-2021-09-15-13_38_54.png"
-              isBlog={false}
-              title="Simulador de Envio de Formulario en JavaScript"
-              description="My JavaScript simulator of sending form"
-              link="https://simulador-manda-correos-memz.netlify.app/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://raw.githubusercontent.com/Angstromico/AppReact-MyTeachers/master/appteachers.png"
@@ -105,15 +87,7 @@ function Projects() {
               link="https://manuelmoralesfoodreactapp.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/Buscador_Automoviles_JavaScript/master/img/catureautos.png"
-              isBlog={false}
-              title="Buscador de Autos JavaScript"
-              description="An app that show cars according the user preference"
-              link="https://buscador-automoviles-manuel-morales.netlify.app/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={AppSalon}
@@ -256,33 +230,6 @@ function Projects() {
               title="React App for Car Insurance"
               description="An App pick a Car Insurance."
               link="https://manuel-morales-ensure-app-react.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/Cotizador-Autos-App/master/cotizador.png"
-              isBlog={false}
-              title="App Cotizador de Automoviles en JavaScript"
-              description="App to ensure your Car with JavaScript"
-              link="https://manuel-morales-cotizador-autos.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/app-gastos/master/gasto.png"
-              isBlog={false}
-              title="App Presupuesto Gasto"
-              description="App for calculating expenses and budget in JavaScript."
-              link="https://manuel-morales-cotizador-autos.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/consultas-veterinarias-apps/master/maxcyn.png"
-              isBlog={false}
-              title="App Consulta Veterinaria"
-              description="App created in JavaScript to simulate the filling of the form in a veterinary consultation."
-              link="https://manuel-morales-consulta-veterinaria.netlify.app/"
             />
           </Col>
         </Row>

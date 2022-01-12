@@ -810,3 +810,16 @@ html {
     opacity: 1;
   }
 }
+.image-project {
+  height: 18rem;
+}
+@media (min-width: 768px) {
+  .image-project {
+    height: 15rem;
+  }
+}
+@media (min-width: 1000px) {
+  .image-project {
+    height: 10rem;
+  }
+}
