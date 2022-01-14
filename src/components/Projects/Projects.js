@@ -3,8 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 
-import foodApp from '../../Assets/Projects/13.png';
-
 import AppSalon from '../../Assets/Projects/15.png';
 import plugin from '../../Assets/Projects/18.png';
 
@@ -27,6 +25,15 @@ function Projects() {
               title="My Projects on JavaScript"
               description="See how good I Handle JavaScript"
               link="https://manuel-morales-portfolio-javascript.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/Angstromico/React-Portfolio-Projects/master/logo.png"
+              isBlog={false}
+              title="My Projects on React"
+              description="A Portfolio for My React Projects"
+              link="https://manuel-morales-react-projects.netlify.app/"
             />
           </Col>
 
@@ -52,44 +59,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/BirtdayApp-React/master/manuel-morales-birtday-app.netlify.app_%20(1).png"
-              isBlog={false}
-              title="App for Birtdays on React"
-              description="A birtday app I made it on Reach js by following the course of coding addict on youtube, I put a form tha allows the user to put himself or whoever he/she want on the app"
-              link="https://react-projects-1-birthday-reminder.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://github.com/Angstromico/React.js_app-SitiosTuristicosSudamerica/raw/master/screencapture-reactapp-turismo-sudamerica-netlify-app-2021-09-15-00_19_57.png"
-              isBlog={false}
-              title="App Turismo Suramericano"
-              description="A app made it on React js for tourism in South America"
-              link="https://reactapp-turismo-sudamerica.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/AppReact-MyTeachers/master/appteachers.png"
-              isBlog={false}
-              title="App Reach js My Teachers"
-              description="An app made it to show the people who show me the way"
-              link="https://appreact-manuelmorales-my-teachers.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={foodApp}
-              isBlog={false}
-              title="Manuel's Food App"
-              description="An app made by following the coding adding React Course about fast food"
-              link="https://manuelmoralesfoodreactapp.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={AppSalon}
               isBlog={false}
               title="Beauty Salon Hypatia"
@@ -106,24 +75,7 @@ function Projects() {
               link="https://manuel-morales-portfolio.bodegones.website/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/React-App-Skills/master/MySkills.png"
-              isBlog={false}
-              title="My Skills"
-              description="An App on React js To Show My Skills"
-              link="https://app-manuel-morales-skills.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/Dummy-Text-Generator/master/Ipsum.png"
-              isBlog={false}
-              title="Dummy Text Generator"
-              description="An App to Generate Dummy Text"
-              link="https://dummy-text-generator-manuel-morales.netlify.app/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={plugin}
@@ -160,15 +112,7 @@ function Projects() {
               link="https://modelo-instituto-educativo-manuel-morales.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/App-Color-Gradient-React-/master/screencapture-localhost-3000-2021-12-05-19_45_54.png"
-              isBlog={false}
-              title="App Color Gradient React"
-              description="A App thet use a library called Value.js to Create Colors gradients"
-              link="https://manuel-morales-color-gradient-app-react.netlify.app/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://raw.githubusercontent.com/Angstromico/React-Portfolio-Manuel-Morales/master/screenofmypage.png"
@@ -176,60 +120,6 @@ function Projects() {
               title="Paisano Furniture Website"
               description="A Ecommerce to sell Furniture"
               link="https://paisanofurniture.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/React-Groseries-App/master/groseries.png"
-              isBlog={false}
-              title="App of Groseries on React.js"
-              description="A App to create items on React"
-              link="https://manuel-morales-groseries-app-react.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/React-Modal-App/master/screencapture.png"
-              isBlog={false}
-              title="Modal App React"
-              description="App to Show the Modal and the Sidebar Nav with the Power of React"
-              link="https://manuel-morales-modal-sidebar-app-react.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/react-header-strive/master/stripe.png"
-              isBlog={false}
-              title="Stripe App"
-              description="An app on React that performes a great header Presentation."
-              link="https://manuel-morales-modal-header-stripe-app-react.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/react-shopping-cart/master/cart.png"
-              isBlog={false}
-              title="React Shopping Cart"
-              description="Shopping Cart Made it on React"
-              link="https://manuel-morales-react-shopping-cart.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/react-api-drinks/master/drinks.png"
-              isBlog={false}
-              title="React Cocktails App"
-              description="An App on React to search and find Cocktails."
-              link="https://manuel-morales-react-drinks-app.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/React-Ensure-App/master/ensure.png"
-              isBlog={false}
-              title="React App for Car Insurance"
-              description="An App pick a Car Insurance."
-              link="https://manuel-morales-ensure-app-react.netlify.app/"
             />
           </Col>
         </Row>
