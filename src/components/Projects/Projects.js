@@ -4,7 +4,6 @@ import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 
 import AppSalon from '../../Assets/Projects/15.png';
-import plugin from '../../Assets/Projects/18.png';
 
 function Projects() {
   return (
@@ -36,27 +35,6 @@ function Projects() {
               link="https://manuel-morales-react-projects.netlify.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/Tema-Para-Instituto-Educativo-en-WordPress/master/screenshot.png"
-              isBlog={false}
-              title="Tema de WordPress para Institutos Educativos"
-              description="A WordPress Theme for Schools."
-              link="https://github.com/Angstromico/Tema-Para-Instituto-Educativo-en-WordPress"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/sportcollegewordpresstheme/master/screenshot.png"
-              isBlog={false}
-              title="A WordPress Theme about Sport Collegue"
-              description="Wordpress Sport College Theme"
-              link="https://github.com/Angstromico/sportcollegewordpresstheme"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={AppSalon}
@@ -64,43 +42,6 @@ function Projects() {
               title="Beauty Salon Hypatia"
               description="A simulation of a beauty salon"
               link="https://app-salon-beauty.000webhostapp.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/Angstromico-Porfolio/master/img/introduction.png"
-              isBlog={false}
-              title="Portfolio HTML5 PHP"
-              description="My First Portfolio"
-              link="https://manuel-morales-portfolio.bodegones.website/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={plugin}
-              isBlog={false}
-              title="QuizBook WordPress Plugin"
-              description="A Plugin of WordPress to Put Questionnaires on the Frontend"
-              link="https://github.com/Angstromico/QuizBook_WordPress_Plugin"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/PHP-Form.Simulator/master/PHPFormSimulator.png"
-              isBlog={false}
-              title="PHP Form Simulator"
-              description="A Simulator of Form Validator for Send info with PHP"
-              link="https://php-form-simulator.herokuapp.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/Angstromico/Another-PHP-Form/master/Form-Capture.png"
-              isBlog={false}
-              title="PHP Form Simulator"
-              description="Another Simulator of Form Validator for Send info with PHP"
-              link="https://another-php-simulator.herokuapp.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -118,7 +59,7 @@ function Projects() {
               imgPath="https://raw.githubusercontent.com/Angstromico/React-Portfolio-Manuel-Morales/master/screenofmypage.png"
               isBlog={false}
               title="Paisano Furniture Website"
-              description="A Ecommerce to sell Furniture"
+              description="A Ecommerce to sell Furniture that I made for a past job on ISMCenter"
               link="https://paisanofurniture.com/"
             />
           </Col>
